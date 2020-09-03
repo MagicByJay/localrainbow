@@ -1,0 +1,113 @@
+.busify-sidebar {
+  //Main Widget Class
+  .widget {
+    margin-bottom: 30px;
+
+    .search-form {
+      label {
+        .screen-reader-text {
+          display: none;
+        }
+      }
+    }
+
+    .widget-title {
+      margin-bottom: 30px;
+      font-size: 20px;
+      position: relative;
+
+      &:before,
+      &:after {
+        background: $gray-500 none repeat scroll 0 0;
+        bottom: -10px;
+        content: " ";
+        height: 1px;
+        left: 0;
+        margin-left: 0;
+        position: absolute;
+        width: 100%;
+      }
+
+      &:after {
+        bottom: -10px;
+        height: 4px;
+        margin-left: 0;
+        width: 40px;
+      }
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+
+      li {
+        position: relative;
+        margin-bottom: 8px;
+
+        &:before {
+          padding-right: 10px;
+          content: "\f054";
+          font-family: "Font Awesome 5 Free";
+          color: $gray-600;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+
+  //Search Widget
+  .widget_search {
+    .search-form {
+      position: relative;
+      padding: 0;
+      background: initial;
+      color: inherit;
+
+      & > label {
+        position: relative;
+        width: 100%;
+      }
+
+      .search-field {
+        background: $white;
+        border: 1px solid $gray-300;
+        border-radius: 2px;
+        width: 100%;
+        padding: 10px 50px 10px 15px;
+      }
+
+      input[type=submit] {
+        padding: 10px;
+        border-radius: 2px;
+        border: none;
+        top: 0;
+        right: 0;
+        position: absolute;
+        color: transparent;
+        background: 0 0;
+        max-width: 45px;
+        z-index: 2;
+        outline: 0;
+      }
+
+      &:after {
+        font-family: "Font Awesome 5 Free";
+        font-size: 1.2em;
+        font-weight: 400;
+        content: "\f002";
+        position: absolute;
+        bottom: -1px;
+        right: 12px;
+        transform: translate(0, -50%);
+        color: $gray-800;
+      }
+    }
+  }
+
+  @include sm_max {
+    margin-top: 40px;
+  }
+}
+
+

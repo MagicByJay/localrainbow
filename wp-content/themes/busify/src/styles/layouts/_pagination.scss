@@ -1,0 +1,73 @@
+.busify-pagination {
+  position: relative;
+
+  button {
+    // outline: 0;
+  }
+
+  &.left-align-pagination {
+    text-align: left;
+    .nav-links {
+      justify-content: flex-start;
+    }
+  }
+
+  &.center-align-pagination {
+    text-align: center;
+    .nav-links {
+      justify-content: center;
+    }
+  }
+
+  &.right-align-pagination {
+    text-align: right;
+    .nav-links {
+      justify-content: flex-end;
+    }
+  }
+
+  .nav-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: .25rem;
+
+    .next {
+      &:after {
+        content: "\f30b";
+        font-family: "Font Awesome 5 Free";
+        font-weight: normal;
+        font-size: 16px;
+      }
+    }
+
+    .prev {
+      &:before {
+        content: "\f30a";
+        font-family: "Font Awesome 5 Free";
+        font-weight: normal;
+        font-size: 16px;
+      }
+    }
+
+    .page-numbers {
+      position: relative;
+      display: block;
+      padding: .5rem .75rem;
+      margin-left: -1px;
+      line-height: 1.25;
+      border: 1px solid $gray-300;
+
+      &.current {
+        color: $white;
+        background: $primary;
+      }
+    }
+  }
+
+  .busify-ajax-load-more > #busify-ajax-spinner {
+    background: none;
+  }
+}

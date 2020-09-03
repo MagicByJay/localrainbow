@@ -1,0 +1,116 @@
+.busify-elementor-page-template {
+  .wpforms-field-container {
+    .wpforms-field {
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        padding: 25px 20px;
+        border: 1px solid #ececec;
+      }
+    }
+  }
+}
+textarea:focus,
+button:focus,
+input[type="checkbox"]:focus, 
+input[type="search"]:focus, 
+input[type="submit"]:focus, 
+input[type="text"]:focus, 
+input[type="email"]:focus, 
+input[type="url"]:focus, 
+input[type="password"]:focus, 
+input[type="number"]:focus, 
+input[type="tel"]:focus, 
+input[type="range"]:focus, 
+input[type="date"]:focus, 
+input[type="month"]:focus, 
+input[type="week"]:focus, 
+input[type="time"]:focus, 
+input[type="datetime"]:focus, 
+input[type="datetime-local"]:focus, 
+input[type="color"]:focus,  {
+    outline: thin dotted;
+    outline-offset: -4px;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid $gray-300;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control::-ms-expand {
+  background-color: transparent;
+  border: 0;
+}
+
+.form-control:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #495057;
+}
+
+.form-control:focus {
+  outline: 0;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.form-control::-moz-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.form-control:-ms-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.form-control::-ms-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.form-control::placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.form-control:disabled, .form-control[readonly] {
+  background-color: #e9ecef;
+  opacity: 1;
+}
+
+select.form-control:focus::-ms-value {
+  background-color: #fff;
+}
+
+textarea.form-control {
+  height: auto;
+  outline:0;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -5px;
+  margin-left: -5px;
+}
+
+.form-row > .col,
+.form-row > [class*="col-"] {
+  padding-right: 5px;
+  padding-left: 5px;
+}

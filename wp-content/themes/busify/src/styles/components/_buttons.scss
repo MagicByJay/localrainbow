@@ -1,0 +1,44 @@
+.btn {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  font-size: 1rem;
+  line-height: 1.5;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &:focus, &.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+
+  &.disabled, &:disabled {
+    opacity: 0.65;
+  }
+}
+
+.btn-busify-primary {
+
+  &.disabled, &:disabled {
+    border-color: #007bff;
+  }
+
+  &:not(:disabled):not(.disabled):active, &:not(:disabled):not(.disabled).active,
+  .show > &.dropdown-toggle {
+    border-color: #005cbf;
+  }
+
+  &:not(:disabled):not(.disabled):active:focus, &:not(:disabled):not(.disabled).active:focus,
+  .show > &.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+  }
+}

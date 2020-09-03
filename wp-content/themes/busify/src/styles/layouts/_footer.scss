@@ -1,0 +1,31 @@
+.site-main-footer {
+  .busify-footer-widgets {
+    padding: 100px 0 40px 0;
+
+    .widget-section-wrap {
+      ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+          margin: 1.5rem 0;
+
+          span {
+            font-size: 12px;
+            display: block;
+            margin-top: 5px;
+          }
+        }
+      }
+    }
+  }
+
+  .busify-super-footer {
+    padding: 20px 0;
+    border-top: 1px solid $gray-200;
+
+    p {
+      margin: 5px 0;
+    }
+  }
+}

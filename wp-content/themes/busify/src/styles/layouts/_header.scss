@@ -1,0 +1,124 @@
+.breadcrumbs {
+  padding: 10px 0;
+
+  .seperator {
+    padding: 0 5px;
+  }
+}
+
+header.site-header {
+  position: relative;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: position 10s;
+  -ms-transition: position 10s;
+  -o-transition: position 10s;
+  transition: all 0.5s ease;
+
+  &.busify-header-transparent {
+    // position: absolute;
+  }
+
+  &.sticky-header {
+    position: fixed;
+    animation: smoothScroll 1s forwards;
+
+    @keyframes smoothScroll {
+      0% {
+        transform: translateY(-40px);
+      }
+      100% {
+        transform: translateY(0px);
+      }
+    }
+  }
+
+  //Right Logo
+  &.busify-right-logo {
+    .site-header-container {
+      flex-direction: row-reverse;
+    }
+
+    .site-branding {
+      text-align: right;
+    }
+  }
+
+  //Center Logo
+  &.busify-center-logo {
+    .site-header-container {
+      text-align: center;
+
+      .site-branding {
+        flex: 0 0 100%;
+      }
+
+      .main-navigation {
+        flex: 0 0 100%;
+        margin-top: 1rem;
+      }
+    }
+  }
+
+  .site-header-container {
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 1.25rem 0;
+
+    .site-branding {
+      .site-title {
+        a {
+          color: #fff;
+        }
+        margin: 0;
+        line-height: initial;
+      }
+
+      .site-tagline {
+        padding: 0;
+        margin: 0;
+        color: #fff;
+      }
+    }
+  }
+}
+
+.busify-image-banner-overlay {
+  padding: 150px 0 50px 0;
+
+  .busify-image-banner-title {
+    line-height: 1.5;
+    word-wrap: break-word;
+  }
+}
+
+//Elementor
+.busify-elementor-page-template {
+  header.site-header {
+    &.sticky-header {
+      position: fixed;
+      animation: smoothScroll 1s forwards;
+
+      @keyframes smoothScroll {
+        0% {
+          transform: translateY(-40px);
+        }
+        100% {
+          transform: translateY(0px);
+        }
+      }
+    }
+  }
+}
+
+//Elementor Edit page
+.elementor-html header {
+  z-index: -1;
+}

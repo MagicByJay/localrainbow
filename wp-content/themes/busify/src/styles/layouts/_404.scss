@@ -1,0 +1,46 @@
+.error-404,
+.no-results {
+  text-align: center;
+  padding: 8em 10em;
+  background: $white;
+
+  .page-title {
+    line-height: 1.5;
+    font-size: 60px;
+    font-weight: 600;
+  }
+
+  .page-title-404 {
+    line-height: 1.5;
+    font-size: 100px;
+    font-weight: 600;
+  }
+
+  h3 {
+    color: $gray-600;
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .search-form {
+    width: 50%;
+    margin: 0 auto;
+
+    label {
+      display: block;
+    }
+
+    .search-field {
+      padding: 9px 20px;
+      border: 1px solid #ccc;
+      width: 100%;
+    }
+
+    .search-submit {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,221 @@
+body, .widget-title span {
+  background-color: #e9ecef;
+}
+
+.busify-no-builder-page-template .entry-content p, .busify-recent-post-excerpt {
+  color: #000000;
+}
+
+.woocommerce span.onsale, .comment-wrapper .comments-title-section span, .busify-sidebar .widget .widget-title:after, .double-bounce1, .double-bounce2 {
+  background-color: #254099;
+}
+
+blockquote::before {
+  color: #254099;
+}
+
+.comment-wrapper .comments-title-section {
+  border-bottom-color: #254099;
+}
+
+blockquote{
+  border-left-color: #254099;
+}
+
+a {
+  color: #254099;
+}
+
+a:hover {
+  color: #0085ba;
+}
+
+input[type=button], input[type=submit], button, .elementor-button-wrapper a, .wp-block-button .wp-block-button__link, .btn-busify-primary, .woocommerce a.button, .woocommerce a.added_to_cart, .woocommerce button.button.alt {
+  background-color: #254099;
+}
+
+input[type=button], input[type=submit], button, .elementor-button-wrapper a, .wp-block-button .wp-block-button__link, .btn-busify-primary, .woocommerce a.button, .woocommerce a.added_to_cart, .woocommerce button.button.alt {
+  color: #ffffff;
+}
+
+input[type=button]:hover, input[type=submit]:hover, button:hover, .elementor-button-wrapper a:hover, .wp-block-button .wp-block-button__link:hover, .btn-busify-primary:hover, .woocommerce a.button:hover, .woocommerce a.added_to_cart:hover, .woocommerce button.button.alt:hover {
+  background-color: #0085ba;
+}
+
+input[type=button]:hover, input[type=submit]:hover, button:hover, .elementor-button-wrapper a:hover, .wp-block-button .wp-block-button__link:hover, .btn-busify-primary:hover, .woocommerce a.button:hover, .woocommerce a.added_to_cart:hover, .woocommerce button.button.alt:hover {
+  color: #ffffff;
+}
+
+input[type=button], input[type=submit], button, .wp-block-button .wp-block-button__link, .btn, .woocommerce a.button, .woocommerce a.added_to_cart {
+  padding-top: 10px;
+}
+
+input[type=button], input[type=submit], button, .wp-block-button .wp-block-button__link, .btn, .woocommerce a.button, .woocommerce a.added_to_cart {
+  padding-bottom: 10px;
+}
+
+input[type=button], input[type=submit], button, .wp-block-button .wp-block-button__link, .btn, .woocommerce a.button, .woocommerce a.added_to_cart {
+  padding-left: 20px;
+}
+
+input[type=button], input[type=submit], button, .wp-block-button .wp-block-button__link, .btn, .woocommerce a.button, .woocommerce a.added_to_cart {
+  padding-right: 20px;
+}
+
+input[type=button], input[type=submit], button, .btn, .woocommerce a.button, .woocommerce a.added_to_cart {
+  border: 0px solid;
+}
+
+.busify-theme-btn {
+  background: #254099;
+  color: #ffffff;
+  border-color: #000000;
+}
+
+.primary-menu a {
+  color: #ffffff;
+}
+
+.primary-menu li.current-menu-item a, .primary-menu li.current-menu-ancestor a,
+.site-header-container .main-navigation .primary-menu a:hover {
+  color: #85bdef;
+}
+
+.site-header-container .main-navigation .primary-menu li ul.sub-menu {
+  background-color: #222222;
+}
+
+.site-header-container .main-navigation .primary-menu li ul.sub-menu:before {
+  color: #222222;
+}
+
+.site-header-container .main-navigation .primary-menu li ul.sub-menu>li>a {
+  color: #ffffff;
+}
+
+.site-header-container .main-navigation .primary-menu li ul.sub-menu>li>a:hover {
+  background: #ffffff;
+}
+
+.site-header-container .main-navigation .primary-menu li ul.sub-menu>li>a:hover {
+  color: #000000;
+}
+.site-header-container .main-navigation .primary-menu li ul.sub-menu>li {
+  border-color: #333;
+}
+
+@media (max-width: 767px) {
+  .site-header-container .main-navigation .menu-primary-menu-container, .site-header-container .main-navigation .primary-menu li ul.sub-menu {
+    background: #ffffff;
+  }
+  .site-header-container .main-navigation .menu-primary-menu-container .primary-menu li a, .site-header-container .main-navigation .primary-menu li ul.sub-menu>li>a {
+    color: #000000;
+  }
+  .site-header-container .busify-mobile-menu-buttons .navigation-toggler-icon .icon, .site-header-container .busify-mobile-menu-buttons .navigation-toggler-icon .icon:before, .site-header-container .busify-mobile-menu-buttons .navigation-toggler-icon .icon:after {
+    background-color: #ffffff;
+  }
+}
+
+.busify-image-banner-container {
+  background: #254099;
+  background-repeat: repeat;
+  background-position: center cente;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.busify-image-banner-overlay {
+  background-color: rgba(0,0,0,0.7);
+}
+
+.busify-image-banner-title {
+  color: #ffffff;
+}
+
+.site-title,
+.site-title a,
+.site-tagline {
+  // color: #fff;
+}
+
+header.busify-header-transparent {
+  background: rgba(10,10,10,0.75);
+}
+
+header.busify-no-transparent {
+  background: #fff;
+}
+
+header.sticky-header {
+  background: rgba(10,10,10,0.75);
+}
+
+.blog .busify-post-content-title h2.entry-title, .blog .busify-post-content-title h2.entry-title a, .archive .busify-post-content-title h2.entry-title, .archive .busify-post-content-title h2.entry-title a, .search .busify-post-content-title h2.entry-title, .search .busify-post-content-title h2.entry-title a, .archive .busify-post-content-title h2.entry-title, .search .busify-post-content-title h2.entry-title a,
+.blog .busify-post-entry-content p, .search-results .busify-post-entry-content p, .archive .busify-post-entry-content p {
+  color: #000;
+}
+
+.blog .busify-post-content-meta span, .blog .busify-post-content-meta span a, .search-results .busify-post-content-meta span, .search-results .busify-post-content-meta span a, .archive .busify-post-content-meta span a {
+  color: #545454;
+}
+
+.busify-pagination .nav-links a, .busify-pagination .nav-links span, .busify-pagination a {
+  color: #000;
+}
+
+.busify-pagination .page-numbers {
+  background-color: #fff;
+}
+
+.busify-pagination a:hover, .busify-pagination span:hover {
+  color: #0085ba;
+}
+
+.busify-pagination .page-numbers.current {
+  background-color: #254099;
+}
+
+.single-post .busify-post-content-title h1.entry-title, .single-post .busify-post-content-title h1.entry-title a,
+.single-post .busify-post-entry-content p {
+  color: #000;
+}
+
+.single-post .busify-post-content-meta span, .single-post .busify-post-content-meta span a {
+  color: #545454;
+}
+
+.busify-sidebar h2.widget-title,
+.busify-sidebar a, .busify-sidebar p, .busify-sidebar span {
+  color: #000;
+}
+
+footer.site-main-footer {
+  border-color: #d6d6d6;
+}
+
+footer.site-main-footer {
+  background: #fff;
+}
+
+footer.site-main-footer .widget-section-wrap h1, footer.site-main-footer .widget-section-wrap h2, footer.site-main-footer .widget-section-wrap h3, footer.site-main-footer .widget-section-wrap h4, footer.site-main-footer .widget-section-wrap h5, footer.site-main-footer .widget-section-wrap h6,
+footer.site-main-footer .widget-section-wrap p, footer.site-main-footer .widget-section-wrap span, footer.site-main-footer .widget-section-wrap div,
+footer.site-main-footer .widget-section-wrap a {
+  color: #000;
+}
+
+footer.site-main-footer .widget-section-wrap a:hover {
+  color: #254099;
+}
+
+.busify-super-footer {
+  background: #fff;
+}
+
+.busify-scroll {
+  background: #000;
+
+}
+
+.busify-super-footer p, .busify-super-footer span {
+  color: #000;
+}

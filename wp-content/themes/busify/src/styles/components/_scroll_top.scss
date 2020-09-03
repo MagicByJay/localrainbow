@@ -1,0 +1,44 @@
+.busify-scrolltop {
+  display: none;
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  z-index: 99;
+}
+
+.busify-scroll {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  padding: 10px 20px;
+  text-align: center;
+  margin: 0 0 0 0;
+  cursor: pointer;
+  transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.busify-scroll:hover {
+  background: $gray-800;
+  transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.busify-scroll:hover .fa {
+  padding-top: -10px;
+}
+
+.busify-scroll .fa {
+  font-size: 30px;
+  transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  color: $white;
+}
